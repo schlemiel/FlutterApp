@@ -1,0 +1,1 @@
+Get-WinEvent -LogName "Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational" -MaxEvents 20 | Format-Table TimeCreated, Id, LevelDisplayName, Message -Wrap

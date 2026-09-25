@@ -1,0 +1,1 @@
+Get-PnpDevice -Class Display | Select-Object Status, FriendlyName, InstanceId
